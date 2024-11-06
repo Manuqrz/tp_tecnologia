@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, blue, pink);
+    background: linear-gradient(to right, rgb(42, 77, 203), rgb(42, 48, 165));
 }
 
 .carousel-inner {
@@ -17,12 +17,11 @@ body {
 footer {
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to top, lime, 20%, cyan);  
+    background: linear-gradient(to top, rgb(0, 0, 0), 20%, rgb(0, 0, 0));  
 }
 
 h2:hover {
-    color: blue;
+    color: rgb(133, 13, 129);
     font-size: 40px;
 
 }
-

@@ -20,8 +20,23 @@ footer {
     background: linear-gradient(to top, rgb(0, 0, 0), 20%, rgb(0, 0, 0));  
 }
 
+
+
 h2:hover {
     color: rgb(133, 13, 129);
     font-size: 40px;
 
+}
+
+.encuesta {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.encuesta img {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 550px;
+    height: 450px;
 }

@@ -39,7 +39,7 @@ h2:hover {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     width: 550px;
-    height: 450px;
+    height: 550px;
 }
 
 .loguito {
@@ -56,4 +56,14 @@ h2:hover {
     background-image: url(./imagenes/informatica_fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+} 
+.elect {
+    background-image: url(./imagenes/electrofd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.energiasbo {
+    background-image: url(./imagenes/energiasbo.jpg);
+    background-size: cover;
 }

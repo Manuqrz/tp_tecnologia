@@ -31,15 +31,15 @@ h2:hover {
 .encuesta {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .encuesta img {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
 }
 
 .loguito {
@@ -66,4 +66,10 @@ h2:hover {
 .energiasbo {
     background-image: url(./imagenes/energiasbo.jpg);
     background-size: cover;
+}
+
+.contenedor {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
 }

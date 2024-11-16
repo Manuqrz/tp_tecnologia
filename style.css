@@ -19,33 +19,37 @@ body {
 }
 
 .cardd img {
-    box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3);
+    box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.3);
 }
 
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-  }
+}
 
 footer {
 
     background: linear-gradient(to top, rgb(0, 0, 0), 20%, rgb(0, 0, 0));
-    height: 90px; /* Fija la altura */
+    height: 90px;
+    /* Fija la altura */
     text-align: center;
     font-size: 0.9rem;
     padding: 10px;
     background-color: #333;
     color: white;
-    overflow: hidden; /* Oculta cualquier contenido que se desborde */
-    
+    overflow: hidden;
+    /* Oculta cualquier contenido que se desborde */
+
     /* Flexbox para centrar */
     display: flex;
-    justify-content: center; /* Centrado horizontal */
-    align-items: center; /* Centrado vertical */
+    justify-content: center;
+    /* Centrado horizontal */
+    align-items: center;
+    /* Centrado vertical */
 }
 
 h2:hover {
@@ -74,8 +78,9 @@ h2:hover {
     height: auto;
     /* Mantén las proporciones */
     margin-top: 30px;
-    animation: mover 3s infinite; /* Nombre de la animación, duración y repetición */
-
+    animation: mover 3s infinite;
+    /* Nombre de la animación, duración y repetición */
+    border: solid black 1px;
 }
 
 .encuesta h1 {
@@ -83,14 +88,17 @@ h2:hover {
     font-size: 40px;
     /* Ajusta el tamaño de la fuente */
     color: white;
-    background: linear-gradient(to bottom right, blue, pink);;
+    background: linear-gradient(to bottom right, blue, pink);
+    ;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    border: solid black 1px;
 }
 
 .encuesta img:hover {
-    transform: scale(1.1); /* Aumenta ligeramente al pasar el cursor */
-  transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    /* Aumenta ligeramente al pasar el cursor */
+    transition: transform 0.3s ease-in-out;
 }
 
 .loguito {

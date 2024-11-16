@@ -30,8 +30,6 @@ body {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   }
-  
-  
 
 footer {
 
@@ -58,7 +56,6 @@ h2:hover {
 
 .encuesta {
 
-
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -67,8 +64,6 @@ h2:hover {
     flex-grow: 1;
     /* Permite que esta sección se expanda si es necesario */
 }
-
-
 
 
 .encuesta img {
@@ -81,10 +76,7 @@ h2:hover {
     margin-top: 30px;
     animation: mover 3s infinite; /* Nombre de la animación, duración y repetición */
 
-    
-
 }
-
 
 .encuesta h1 {
     padding: 20px;
@@ -100,7 +92,6 @@ h2:hover {
     transform: scale(1.1); /* Aumenta ligeramente al pasar el cursor */
   transition: transform 0.3s ease-in-out;
 }
-
 
 .loguito {
     width: 50px;

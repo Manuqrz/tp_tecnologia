@@ -1,5 +1,9 @@
 body {
     background: linear-gradient(to right, rgb(42, 77, 203), rgb(42, 48, 165));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
 }
 
 .carousel-inner {
@@ -10,17 +14,41 @@ body {
 
 .cardd {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 20px;
 }
 
-footer {
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(to top, rgb(0, 0, 0), 20%, rgb(0, 0, 0));  
+.cardd img {
+    box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3);
 }
 
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  
 
+footer {
+
+    background: linear-gradient(to top, rgb(0, 0, 0), 20%, rgb(0, 0, 0));
+    height: 90px; /* Fija la altura */
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+    
+    /* Flexbox para centrar */
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
 
 h2:hover {
     color: rgb(133, 13, 129);
@@ -29,18 +57,50 @@ h2:hover {
 }
 
 .encuesta {
+
+
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    flex-grow: 1;
+    /* Permite que esta sección se expanda si es necesario */
 }
+
+
+
 
 .encuesta img {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    width: 500px;
-    height: 500px;
+    max-width: 100%;
+    /* Asegúrate de que no sea más del 80% del ancho */
+    height: auto;
+    /* Mantén las proporciones */
+    margin-top: 30px;
+    animation: mover 3s infinite; /* Nombre de la animación, duración y repetición */
+
+    
+
 }
+
+
+.encuesta h1 {
+    padding: 20px;
+    font-size: 40px;
+    /* Ajusta el tamaño de la fuente */
+    color: white;
+    background: linear-gradient(to bottom right, blue, pink);;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.encuesta img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente al pasar el cursor */
+  transition: transform 0.3s ease-in-out;
+}
+
 
 .loguito {
     width: 50px;
@@ -56,7 +116,8 @@ h2:hover {
     background-image: url(./imagenes/informatica_fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
+
 .elect {
     background-image: url(./imagenes/electrofd.jpg);
     background-size: cover;
@@ -69,7 +130,10 @@ h2:hover {
 }
 
 .contenedor {
-    display: grid;
-    min-height: 100dvh;
-    grid-template-rows: auto 1fr auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Distribuye los elementos para que haya espacio */
+    height: 100vh;
+    /* Ocupa el 100% de la altura de la ventana */
 }

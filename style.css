@@ -136,3 +136,14 @@ h2:hover {
     height: 100vh;
     /* Ocupa el 100% de la altura de la ventana */
 }
+
+.carousel-item {
+    height: 500px; /* Ajusta la altura del carrusel */
+  }
+
+  .carousel-item img {
+    width: 100%;         /* Ocupa todo el ancho */
+    height: 100%;        /* Ocupa todo el alto */
+    object-fit: cover;   /* Recorta proporcionalmente para llenar el espacio */
+    object-position: center; /* Centra la imagen */
+  }

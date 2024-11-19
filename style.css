@@ -88,7 +88,7 @@ h2:hover {
     font-size: 40px;
     /* Ajusta el tamaño de la fuente */
     color: white;
-    background: linear-gradient(to bottom right, blue, pink);
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(95, 94, 94));
     ;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
